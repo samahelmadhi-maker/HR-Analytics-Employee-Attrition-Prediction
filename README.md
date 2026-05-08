@@ -1,4 +1,4 @@
-# HR Analytics – Employee Attrition Prediction
+# HR-Analytics-Employee-Attrition-Prediction
 
 ## Overview
 
@@ -33,12 +33,12 @@ The notebook includes:
 ## Project Structure
 
 ```bash
-HR-Analytics/
+HR-Analytics-Employee-Attrition-Prediction/
 │
 ├── HR_Analytics.ipynb
-├── employees_at_risk.csv
 ├── README.md
-└── dataset.csv
+├── WA_Fn-UseC_-HR-Employee-Attrition.csv
+└── employees_high_risk_attrition.csv
 ```
 
 ---
@@ -140,8 +140,8 @@ Outputs include:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/hr-analytics.git
-cd hr-analytics
+git clone https://github.com/your-username/HR-Analytics-Employee-Attrition-Prediction.git
+cd HR-Analytics-Employee-Attrition-Prediction
 ```
 
 ### 2. Install dependencies
@@ -156,7 +156,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
 jupyter notebook
 ```
 
-Open:
+Open the notebook:
 
 ```bash
 HR_Analytics.ipynb
@@ -164,10 +164,18 @@ HR_Analytics.ipynb
 
 ---
 
+## Future Improvements
+
+* Deploy as a web application
+* Add Power BI dashboard integration
+* Compare multiple ML models
+* Hyperparameter tuning
+* Real-time prediction API
+
+---
 
 ## Author
 
 Samah Elmadhi
 
 Data Analytics & Machine Learning Project
-
